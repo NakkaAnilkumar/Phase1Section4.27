@@ -11,6 +11,7 @@ namespace Phase1Section4._27
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -37,7 +38,7 @@ namespace Phase1Section4._27
             Console.WriteLine(arr[currElem]);
             if (currElem < arr.Length - 1)
                 printViaRecursion(arr, currElem + 1);
-            Console.ReadLine();
+            
 
         }
 
